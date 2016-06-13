@@ -1,0 +1,19 @@
+body{margin-top:0px}.completeNavHeader,.navbar,.navbarTop,.navbarBottom,.pageFooter{display:block;height:auto}.completeNavHeader{width:990px;margin:0px auto 5px auto}.outsideAds,.promoDiv{display:block;height:100px;text-align:center;margin-top:5px}.psotd{float:right;width:160px;height:90px;overflow:hidden;margin:0px 0px 0px 20px;padding:0px 3px 0px 3px;background:#ececec;border:#dadada solid 1px;color:gray;font-family:verdana,arial;font-size:10px;text-align:left}.psotd .promoText{color:#a00;text-align:center}.psotd a.promoBand{color:#005177}.psotd a.promoSong{color:gray;text-decoration:none}.psotd a:hover{color:red;text-decoration:underline}.navbar{background:#ececec;font-family:verdana,arial}.navbarTop{background:#fff url(/images/themes/gradientSilver.jpg) bottom repeat-x;border-top:#ffd900 solid 2px;height:47px}.navbarBottom{border-top:dashed #666 1px;font-size:11px;height:30px}.navbarTop .image{float:left;height:45px}.navbarTop .image a:link,.navbarTop .image a:visited{display:block;float:left}.navbarTop .image a:hover{background:#eaeaff}.navbarTop .image a.home:hover{background:none}.navbarTop .image a.selected:link,.navbarTop .image a.selected:visited{background:#eaeaff}.navbarTop .dividerH{border-right:#e3e3e3 solid 1px}.navbarTop .text{font-family:Verdana,Arial;font-size:11px;font-weight:normal;float:right;height:45px;overflow:hidden}.navbarTop .text a:link,.navbarTop .text a:visited{color:#666;text-decoration:none;display:block;padding:18px 7px 15px 8px;text-align:center}.navbarTop .text a:hover{background-color:#ccc;color:#000}.navbarTop .text a.selected:link,.navbarTop .text a.selected:visited{background:#ccc;color:#000}.navbarBottom .text{font-family:Verdana,Arial;font-size:11px;font-weight:normal}.navbarBottom .text a:link,.navbarBottom .text a:visited{color:#666;text-decoration:none;display:block;text-align:center}.navbarBottom .text a:hover{background-color:#ccc;color:#000}.navbarBottom .text a.selected:link,.navbarBottom .text a.selected:visited{background:#ccc;color:#000}.subnavAnchor{float:left;position:relative;z-index:1;visibility:hidden}.subnavAnchorText{float:right;position:relative;z-index:1;visibility:hidden}.subnavBox{position:absolute;top:45px;background:#eaeaff;border:#005177 solid 1px;padding:5px;width:170px;z-index:2;text-align:left;font-size:11px;color:#666}.subnavBox a:link,.subnavBox a:visited{color:#005177;float:none;height:auto;display:block;text-decoration:none;padding:2px}.subnavBox a:hover{background:#005177;color:#fff}.subnavBox .divider{height:2px;line-height:2px;border-bottom:#ceceff solid 1px}.subnavBox .close{padding-top:5px;text-align:right;color:#999;font-size:11px}.arrowText{float:right}.arrowText a:link,.arrowText a:visited{display:block;float:left}.arrowText a:hover{background:#ccc}.arrowText a.selected:link,.arrowText a.selected:visited{background:#ccc;color:#000}.navBreadcrumbs{float:left;padding:7px 0px 4px 5px}.navBreadcrumbs a:link,.navBreadcrumbs a:visited{color:#00f;text-decoration:underline}.navBreadcrumbs a:hover{color:red}input.navSearch{height:14px;margin-top:1px;font-size:11px;font-family:Verdana,Arial;background:#fff;color:#000;border:#999 solid 1px}input.navSearch_off{height:14px;margin-top:1px;font-size:11px;font-family:Verdana,Arial;background:#fafafa;color:#ccc;border:#999 solid 1px}input.navSearch_submit{font-size:11px;font-family:Verdana,Arial;margin-right:2px;color:#666}
+
+.mainCon {
+    color:#cdcdcd;
+    margin: -1300px 0px 20px 150px;
+    text-align: center;
+}
+
+.mainCon h1 {
+    font-size: 4em;
+}
+
+.mainCon h3 { 
+    font-size: 1.5em; 
+}
+
+.mainCon a:hover {
+    color: #b8ec57;
+}

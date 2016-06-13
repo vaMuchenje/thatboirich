@@ -1,0 +1,5 @@
+function nav_top_show(id){nav_top_hideSubNavs();document.getElementById('header'+id).className="selected";document.getElementById('navsub'+id).style.visibility="visible";}
+function nav_top_hide(id){document.getElementById('header'+id).className="";document.getElementById('navsub'+id).style.visibility="hidden";}
+function nav_top_hideSubNavs(){document.getElementById('headerMusic').className="";document.getElementById('navsubMusic').style.visibility="hidden";document.getElementById('headerCommunity').className="";document.getElementById('navsubCommunity').style.visibility="hidden";if(document.getElementById('headerSearch')){document.getElementById('headerSearch').className="";document.getElementById('navsubSearch').style.visibility="hidden";}
+if(document.getElementById('headerAccount')){document.getElementById('headerAccount').className="";document.getElementById('navsubAccount').style.visibility="hidden";}}
+function doNavSearch(url){document.location.href=url+'&searchterm='+document.navSearch.SearchTerm.value;}

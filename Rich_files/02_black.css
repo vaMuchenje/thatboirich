@@ -1,0 +1,185 @@
+/*************  SoundClick CSS Template (based on 02 - Elegant Black)  ******************/
+
+/*  general  */
+	body {background:#333333 url(/bands/imagesbg/bg_grad_black_333333.png) repeat-x fixed; margin:0px;}
+	body,div,tr,td,select,textarea,input,option {font-family:Verdana,Arial; font-size:12px;}
+	a, a:link, a:visited {color:#ECECEC; text-decoration:none;}
+		a:hover {color:red; text-decoration:underline;}
+	.pageFooter {clear:both; color:gray; padding:30px 0px 50px 20px;font-size:10px;}
+	.pageFooter a:link, .pageFooter a:visited {color:gray; text-decoration:none;}
+	.pageFooter a:hover {text-decoration:underline;}
+	.infoBox {width:650px; margin:50px auto; border:silver solid 1px; padding:30px; font-size:14px;}  /* hardly used, it's for error messages to user */
+		.infoBox .quotes {margin:20px; border:#cccccc dashed 1px; font-style:italic; padding:10px; background:#ECECEC;}
+	/*  for custom header, use like this: .customCSSHeader {display:block; background: url(LINK_TO_YOUR_IMAGE) center no-repeat; height: INSERT_HEIGHT_IN_PIXELS_HERE;  }   */
+	.customCSSHeader {display:none;}
+
+/*  main containers  */
+	.mainTable {background:#050505; color:#666666; border:black solid 1px; width:990px; margin:0px auto; text-align:left;}
+	.mainContent {background:#050505; color:#999999; width:683px; float:left; overflow:hidden; margin:10px 0px 20px 5px;}	/* IE6 doesn't support our preferred overflow:visible :( */
+	/* not used for VIP accounts */
+	.sideAd {width:300px; height:260px; margin:3px 2px 15px 10px; float:right; text-align:center; overflow:visible;}
+	.sideAdSky {width:160px; height:610px; margin:3px 0px 15px 0px; float:right; text-align:center; overflow:visible; border-left:#999999 solid 1px;}
+
+/*  left navigation  */
+	.navigation {background:#070707; width:300px; float:left; overflow:hidden; margin:10px 0px 20px 0px;}
+		.navigation a:link, .navigation a:visited {color:#999999; text-decoration:none;}
+		.navigation a:hover {color:white;}
+	.navigationDivider {height:6px; line-height:6px; border-bottom:#232323 dashed 1px; margin-bottom:6px;}
+
+/*  general elements  */
+	.headline {background:#000000; color:#cccccc; font-size:12px; font-weight:normal; border-bottom:#232323 dashed 1px; border-top:#333333 solid 1px; padding:3px 0px 3px 6px;}
+	.headlineBig {font-size:22px; font-weight:normal;}
+	.headlineSuppl {color:#999999; float:right; margin:10px 5px 0px 0px; font-size:11px; font-weight:normal;}	/* for text/links on the right side of main headline (e.g. song count on main page) */
+		.headlineSuppl a:link, .headlineSuppl a:visited {color:#999999; text-decoration:none;}
+		.headlineSuppl a:hover {color:red; text-decoration:underline;}
+	.pageturner {background:#070707; color:#666666; border:#333333 solid 1px; text-align:right; padding:10px; font-size:13px; font-weight:normal;}  /* pages menu (previous, next..), e.g. on music page, message board */
+		.pageturner .nonactive {color:#666666;}
+		.pageturner a:link, .pageturner a:visited {color:#E4E4E4; text-decoration:none;}
+		.pageturner a:hover {color:red; text-decoration:underline;}
+	.listedPicsBox {background:black; color:#666666; width:114px; height:160px; overflow:hidden; padding:2px 1px 4px 1px; margin:0px 4px 10px 4px; border:solid #111111 1px; float:left; font-size:11px; text-align:center;}
+		.listedPics {width:110px; height:125px; background-position: center center; background-repeat: no-repeat; margin:2px 0px 4px 0px; overflow:hidden}
+	.breaker {height:1px; line-height:1px; clear:both}
+
+/*  general assets */
+	.color_supplemental {color:#666666;}	/* used e.g. for song pages comments count */
+	.alternateBG0 {}						/* used as background colors for comments */
+	.alternateBG1 {}						/* alternate color */
+	
+/*  main page (the default entry page) */
+	.mainContent .contHeadline	{clear:left; font-family:Tahoma,Trebuchet MS,Verdana,Arial; font-size:14px; color:#D6D6F8; padding:12px 0px 2px 20px;}
+	.mainContent .contText {clear:left; font-size:13px; padding-left:15px;}
+	.mainContent .contInterview {clear:left; font-size:13px; padding-left:35px;}
+	.mainContent .newsBox {clear:both; background:black; color:#CCCCCC; border:#001932 solid 2px; margin:0px 20px 20px 20px; padding:20px;}
+	
+	/*  main page: video box (different from video page)   */	
+	.videoBox_mainPage {color:#999999; padding:5px; margin:0px 100px 20px 100px;}
+		.videoBox_mainPage .video {padding:5px; margin-bottom:10px;}
+		.videoBox_mainPage .title {color:#333333; font-size:15px; text-align:center; margin-bottom:3px;}
+		.videoBox_mainPage .shareLinks {float:right; padding:2px; border-bottom:#333333 dashed 1px;}
+		.videoBox_mainPage .labels {color:#333333; width:100px; padding-right:20px; text-align:right; float:left;}
+		.videoBox_mainPage .info {padding-left:120px;}
+		.videoBox_mainPage a:link, .videoBox_mainPage a:visited { color:#999999; text-decoration:none; font-size:11px; font-weight:normal;}
+		.videoBox_mainPage a:hover {color:white; text-decoration:none;}
+	
+	/*  main page: upcoming shows  */
+	.liveshowsBox {width:300px; background:#006699; color:#FFFFFF; margin:15px 2px 15px 10px; float:right; clear:right;}
+		.liveshowsItems {padding:4px 0px 0px 0px; font-size:11px; clear:both;}
+		.liveshowsBox a:link, .liveshowsBox a:visited {color:white; text-decoration:none;}
+		.liveshowsBox a:hover {color:#FFD900; text-decoration:underline; cursor:pointer;}
+	
+	/*  main page: standard song box on artist page (only this song box or the embedded player is used. Never both together)  */
+	.playerBox {float:left; clear:left; padding-left:20px; margin:15px 0px 3px 0px;}
+		.playerBox .playerHead {text-align:right; background:#111111; color:#445160; font-size:11px; padding:3px 5px 3px 3px; border-top:solid 1px #666666; border-bottom:dashed 1px #444444;}
+			.playerBox .playerHead a:link,.playerBox .playerHead a:visited {color:#CCCCCC; text-decoration:none;}
+			.playerBox .playerHead a:hover {color:white; text-decoration:underline;}
+		.playerBox .songBox {width:330px; padding:3px 0px 0px 1px; overflow:auto; background:#333333 url(/images/background/bg_grad_black_333333.png) repeat-x fixed; border-bottom:solid 1px #000000;}
+		.playerBox .songBox .singleSong {font-size:11px; color:#CCCCCC padding:1px;}
+			.playerBox .songBox .singleSong:hover {background:#999999; color:black; cursor:pointer;}
+	
+	/*  main page: VIP embedded player (only this embedded player or the standard song box is used. Never both together) */
+	.embeddedPlayer {margin:20px auto; width:620px;}
+	
+	/*  main page: tabbed content headers (fans,stations) */
+	.tabbedCont_header li a:link, .tabbedCont_header li a:visited {background:#000000; color:#666666; text-decoration:none; margin:0px 20px 0px 0px; padding:3px 6px 3px 6px; border:#666666 solid 1px; border-bottom:none; }
+		.tabbedCont_header li a:hover {color:white;}
+		.tabbedCont_header li.selected a:link, .tabbedCont_header li.selected a:visited {background:#111111; color:#999999; border:#111111 solid 1px; border-top:#999999 solid 1px; font-weight:bold;}
+	
+	/*  main page: fans, stations (tabbed content)  */
+	.fansBox {padding:30px 20px 20px 20px; clear:both;}
+			.fansBox a:link, .fansBox a:visited {color:#445160; text-decoration:none;}
+			.fansBox a:hover {color:#CCCCCC; text-decoration:none;}
+			.fansBox a div {opacity:0.6; filter:alpha(opacity=60);}
+			.fansBox a:hover div {opacity:1; filter:alpha(opacity=100);}
+		.fancount {background:#111111; color:#666666; text-align:right; padding:3px 5px; margin-bottom:8px; font-size:11px; font-weight:normal; border-bottom:#232323 dashed 1px; border-top:#222222 solid 1px; }
+		.fansBox_content {background:black;}
+		.fansBoxLastLine {background:#111111; color:#666666; clear:both; text-align:right; padding:3px 5px; margin:8px 0px; font-size:11px; font-weight:normal; border-bottom:#222222 solid 1px; border-top:#232323 dashed 1px;}
+		.stationItem {clear:both; color:black; border-bottom:#232323 dashed 1px; padding:0px 1px 0px 1px;}
+		.stationPicBox {float:left;}
+			.stationPics {width:70px; height:70px; background-position:center center; background-repeat: no-repeat; margin:0px 0px 1px 0px; overflow:hidden}
+		.stationButtonsBox {float:left; padding:2px 15px 0px 5px; height:60px;}
+		.stationsText {color:#666666; height:70px; overflow:hidden;}
+		.stationLink a:link, .stationLink a:visited {color:#C8C8C8; font-size:13px; text-decoration:none;}
+			.stationLink a:hover {color:white; text-decoration:none;}
+
+/*  music page  */
+	.songsBox { width:517px; float:left; border-bottom:#333333 dashed 1px; padding-bottom:2px; margin-bottom:10px;}
+		.songsBox a:link, .songsBox a:visited {color:#445160;text-decoration:none;}
+		.songsBox a:hover {color:#CCCCCC; text-decoration:none;}
+	a.songtitle:link, a.songtitle:visited {color:#CCCCCC; text-decoration:none; font-size:14px; font-weight:bold;}
+		a.songtitle:hover {color:white; text-decoration:none;}
+	.songsBox .actionlinks {font-size:12px;}  /* the links for full song info, add to station, rate this song... */
+	.songsBox .topSong {float:left; text-align:left; color:#666666; font-size:11px;}	/* if song has been in top100 */
+
+/*  comments page  */
+	.commentsWelcome {background:#333333 url(/images/background/bg_grad_black_333333.png) repeat-x fixed; color:#CCCCCC; margin:0px 20px 20px 20px; padding:20px;}
+	.commentsBox { padding-top:5px; border-bottom:#333333 dashed 1px;;}
+		.commentsBox a:link, .commentsBox a:visited {color:#666666;}
+		.commentsBox a:hover {color:white; text-decoration:underline;}
+	.commentsBox .songComment {border-bottom:#333333 dashed 1px; font-size:11px; padding:1px 3px; margin-bottom:5px;}
+	.commentsBox .postdate {text-align:right; margin:0px 5px 10px 0px; color:#666666; font-size:11px; font-weight:normal;}
+		.commentsBox .postdate a:link, .commentsBox .postdate a:visited {color:#666666; text-decoration:none;}	/* for delete/edit links */
+		.commentsBox .postdate a:hover {color:white; text-decoration:underline;}
+	.commentsBox .comment {color:#CCCCCC; padding:0px 5px 0px 140px; font-size:12px;}
+	.commentsBox .bandSignature {border-top:#333333 solid 1px; color:#666666; width:310px; margin-top:15px; line-height:20px;}
+	.commentsBox .ratingsBox {float:right; width:220px; border-left:#333333 solid 1px; margin-bottom:10px;}
+			.ratingsBox .label {width:115px; text-align:right; float:left; padding-right:20px;}	/* also used for .commentsPostBox .ratingsBox */
+	.commentsPostBox {padding:10px; margin:20px 0px; background:#222222; border-top:#666666 solid 2px; border-bottom:#666666 solid 1px;}
+	.commentsPostBox .ratingsBox {background:#444444; color:#CCCCCC; clear:both; padding:7px 0px; margin:0px 250px 20px 30px;}
+
+/*  video page	*/
+	.videoBox {background:black; padding:5px; line-height:22px;}
+		.videoBox .video {padding:20px; margin-bottom:10px;}
+		.videoBox .title {text-align:center; background:#121212; color:#F3F3F3; font-size:16px; padding:1px;}
+		.videoBox .labels {color:#333333; width:200px; padding-right:20px; text-align:right; float:left;}
+		.videoBox .info {float:left; width:440px;}
+		.videoBox a:link, .videoBox a:visited {color:#cccccc; text-decoration:none; font-size:11px;}
+		.videoBox a:hover {color:red; text-decoration:underline;}
+	.videoListBox {border-top:#333333 dashed 1px;}
+	
+/*  photo pages  */
+	.photopage {background:black;}
+	.selectedPhoto_box {text-align:center;}
+		.selectedPhoto_box .selPhoto_title {background:#111111; color:#cccccc; border-bottom:#666666 solid 1px; font-size:15px; padding:4px;}
+	.photolist {padding:10px 0px 0px 30px;}
+		.photolist .photobox {background:none; float:left; width:118px; height:180px; margin:5px 0px 20px 10px; padding:5px 0px 10px 0px; overflow:hidden; cursor:pointer; text-align:center;}
+			.photobox .photo {height:150px; width:118px; overflow:hidden;}
+			.photobox .photoComment {color:#444444; font-size:11px;}
+		.photolist .photobox_on {background:#222222; float:left; width:118px; height:180px; margin:5px 0px 20px 10px; padding:5px 0px 10px 0px; overflow:hidden; cursor:pointer; text-align:center;}
+			.photobox_on .photo {height:150px; width:118px; overflow:hidden;}
+			.photobox_on .photoComment {color:#999999; font-size:11px;}
+
+/*  reviews page  */
+	.reviewsBox {padding:10px 30px; border-bottom:#333333 dashed 1px;}
+	.reviewsBox .rev_headline {color:#006699; font-size:14px; font-weight:bold;}
+	.reviewsBox .rev_text {padding:5px 5px 5px 30px; font-size:12px;}
+	.reviewsBox .rev_source {text-align:right; font-size:11px; color:#999999;}
+
+/*  licensing page */
+	.licenseSummary {background:#333333 url(/images/background/bg_grad_black_333333.png) repeat-x fixed; color:#CCCCCC; margin:0px 20px 20px 20px; padding:20px; border:silver solid 1px;}
+	.licenses {margin-top:70px;}
+	.licenses .headline {background-color:#111111; font-size:14px;}
+	.lic_tableSongs {border:none;}
+		.lic_tableSongs .columnHeaders td {border-bottom:#555555 solid 1px; font-weight:bold; font-size:11px;}
+		.lic_tableSongs tr td {border-bottom:#333333 dashed 1px; padding:5px 0px;}
+		
+/*  widgets page  */
+	.widgetMargin { padding:8px 0px 8px 35px;}
+	.widgetSpacer {width:100%; height:15px; clear:both;}
+	
+/* tag cloud */
+	.tagCloud {padding:10px;}
+	.tagCloud .cloudItem {float:left; padding:2px; white-space:nowrap; margin:0 6px 0 0;}
+	.tagCloud .cloudItem:hover {background:#005782; color:white; cursor:pointer;}
+	.tagCloud .cloudS10 {font-size:10px; color:#aaaaaa;}
+	.tagCloud .cloudS20 {font-size:11px; color:#aaaaaa;}
+	.tagCloud .cloudS30 {font-size:11px; color:#999999;}
+	.tagCloud .cloudS40 {font-size:12px; color:#999999;}
+	.tagCloud .cloudS50 {font-size:14px; color:#666666;}
+	.tagCloud .cloudS60 {font-size:16px; color:#666666;}
+	.tagCloud .cloudS70 {font-size:18px; color:#333333;}
+	.tagCloud .cloudS80 {font-size:22px; color:#333333;}
+	.tagCloud .cloudS90 {font-size:28px; color:#111111; }
+	.tagCloud .cloudS100 {font-size:36px; color:#111111;}
+	.tagCloudMore {padding:6px 0 0 0; margin:0 10px; text-align:center; border-top:#ccc solid 1px; font-size:11px;}
+	.tagCloudMore a, .tagCloudMore a:link, .tagCloudMore a:visited {color:#999; text-decoration:none;}
+	.tagCloudMore a:hover {color:red; text-decoration:underline; cursor:pointer;}
